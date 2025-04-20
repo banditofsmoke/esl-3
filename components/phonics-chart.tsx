@@ -282,25 +282,60 @@ export default function PhonicsChart() {
                   className="rounded-lg"
                 />
               </div>
-              <div className="mt-6 grid gap-6 md:grid-cols-2">
-                {Object.entries(phonicsData).map(([category, sounds]) => (
-                  <Card key={category}>
-                    <CardHeader className="pb-2">
-                      <CardTitle className="text-lg">
-                        {category.replace(/([A-Z])/g, ' $1').trim()}
-                      </CardTitle>
-                    </CardHeader>
-                    <CardContent>
-                      <ul className="grid grid-cols-2 gap-2 sm:grid-cols-3">
-                        {sounds.map((sound, i) => (
-                          <li key={i} className="rounded-md bg-muted p-2 text-sm hover:bg-muted/80">
-                            {sound}
-                          </li>
-                        ))}
-                      </ul>
-                    </CardContent>
-                  </Card>
-                ))}
+              <div className="mt-6 grid gap-8 md:grid-cols-1 lg:grid-cols-2">
+                {/* Short Vowels Section */}
+                <Card className="col-span-1">
+                  <CardHeader className="pb-4">
+                    <CardTitle className="text-xl font-bold">
+                      Short Vowels
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <ul className="grid grid-cols-1 gap-4">
+                      {phonicsData.shortVowels.map((sound, i) => (
+                        <li key={i} className="rounded-lg bg-muted p-4 text-base hover:bg-muted/80">
+                          {sound}
+                        </li>
+                      ))}
+                    </ul>
+                  </CardContent>
+                </Card>
+
+                {/* Long Vowels Section */}
+                <Card className="col-span-1">
+                  <CardHeader className="pb-4">
+                    <CardTitle className="text-xl font-bold">
+                      Long Vowels
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <ul className="grid grid-cols-1 gap-4">
+                      {phonicsData.longVowels.map((sound, i) => (
+                        <li key={i} className="rounded-lg bg-muted p-4 text-base hover:bg-muted/80">
+                          {sound}
+                        </li>
+                      ))}
+                    </ul>
+                  </CardContent>
+                </Card>
+
+                {/* Consonant Blend Endings Section */}
+                <Card className="col-span-2">
+                  <CardHeader className="pb-4">
+                    <CardTitle className="text-xl font-bold">
+                      Consonant Blend Endings
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <ul className="grid grid-cols-2 lg:grid-cols-3 gap-4">
+                      {phonicsData.consonantBlendEndings.map((sound, i) => (
+                        <li key={i} className="rounded-lg bg-muted p-4 text-base hover:bg-muted/80">
+                          {sound}
+                        </li>
+                      ))}
+                    </ul>
+                  </CardContent>
+                </Card>
               </div>
             </CardContent>
             <CardFooter className="flex justify-center">
