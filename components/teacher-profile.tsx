@@ -19,7 +19,7 @@ export default function TeacherProfile() {
           <div className="flex flex-col gap-4 md:flex-row">
             <div className="relative h-40 w-40 flex-shrink-0 overflow-hidden rounded-full md:h-60 md:w-60">
               <Image
-                src="/placeholder-user.jpg"
+                src="/user.jpg"
                 alt="Wayne Sletcher"
                 className="object-cover"
                 fill
@@ -29,10 +29,10 @@ export default function TeacherProfile() {
             <div className="flex flex-col justify-center space-y-4">
               <div>
                 <h3 className="text-2xl font-bold">Wayne Sletcher</h3>
-                <p className="text-muted-foreground">English Language Instructor</p>
+                <p className="text-muted-foreground">English Language Teacher</p>
               </div>
               <p className="text-muted-foreground">
-                With over a decade of experience teaching English to students worldwide, Wayne specializes in phonics,
+                With over a decade of experience teaching English to students worldwide, Wayne specializes in grammar,
                 reading comprehension, and cultural understanding.
               </p>
               <div className="space-y-2">
@@ -42,11 +42,11 @@ export default function TeacherProfile() {
                 </div>
                 <div className="flex items-center gap-2">
                   <div className="h-1.5 w-1.5 rounded-full bg-primary" />
-                  <span>Objective based learning.</span>
+                  <span>Students average IELTS 7.0.</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <div className="h-1.5 w-1.5 rounded-full bg-primary" />
-                  <span>10+ Years Experience</span>
+                  <span>10+ Years In Class Practical Experience</span>
                 </div>
               </div>
             </div>

@@ -164,7 +164,7 @@ export default function Home() {
   return (
     <div className="flex-1">
       {/* Hero Section */}
-      <section className="w-full py-12 md:py-24 lg:py-32 xl:py-40">
+      <section className="w-full py-6 md:py-12 lg:py-16">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center space-y-4 text-center">
             <div className="space-y-2">
@@ -172,8 +172,7 @@ export default function Home() {
                 Learn English with Wayne Sletcher
               </h1>
               <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-                Experience personalized English instruction with a focus on phonics, reading comprehension, and cultural
-                understanding.
+              Experience personalized English instruction with a focus on phonics, reading comprehension, and cultural understanding.
               </p>
             </div>
             <div className="space-x-4">
@@ -189,7 +188,7 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="w-full py-12 md:py-24 lg:py-32 bg-secondary">
+      <section id="about" className="w-full py-6 md:py-12 lg:py-16 bg-secondary">
         <TeacherProfile />
       </section>
 
@@ -203,7 +202,7 @@ export default function Home() {
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">START HERE Level 0: Phonics</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Level 0: Phonics</h2>
               <p className="mx-auto max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Master the building blocks of English pronunciation and reading.
               </p>
