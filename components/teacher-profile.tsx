@@ -46,7 +46,7 @@ export default function TeacherProfile() {
                 </div>
                 <div className="flex items-center gap-2">
                   <div className="h-1.5 w-1.5 rounded-full bg-primary" />
-                  <span>10+ Years In Class Practical Experience</span>
+                  <span>10+ Years In-Class Practical Experience</span>
                 </div>
               </div>
             </div>
