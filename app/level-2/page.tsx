@@ -5,8 +5,84 @@ import { Badge } from "@/components/ui/badge"
 import { BookMarked, ArrowLeft, Globe } from "lucide-react"
 
 export default function Level2Page() {
-  // Array of 12 stories for Level 2 (Grade 4-5)
   const stories = [
+    {
+      id: "the-two-cousins",
+      title: "The Two Cousins",
+      origin: "Global",
+      description: "Two cousins from different countries spend a wonderful week together, exploring new places and strengthening their family bond.",
+      region: "Global",
+    },
+    {
+      id: "malcolms-saturday-morning",
+      title: "Malcolm's Saturday Morning",
+      origin: "Global",
+      description: "Malcolm meets a mysterious visitor named Red who helps him complete his chores in an unexpected way.",
+      region: "Global",
+    },
+    {
+      id: "robertos-dinner",
+      title: "Roberto's Dinner",
+      origin: "Global",
+      description: "Roberto misses his father who works at a new restaurant, leading to a heartwarming surprise dinner.",
+      region: "Global",
+    },
+    {
+      id: "take-care-of-yourself",
+      title: "Take Care of Yourself",
+      origin: "Global",
+      description: "Two young athletes share their tips for staying healthy and taking care of yourself while playing sports.",
+      region: "Global",
+    },
+    {
+      id: "anitasaurus",
+      title: "Anitasaurus",
+      origin: "Global",
+      description: "A young girl dreams of discovering a new species of dinosaur and naming it after herself.",
+      region: "Global",
+    },
+    {
+      id: "my-trip-to-cartagena",
+      title: "My Trip to Cartagena",
+      origin: "Global",
+      description: "A child learns about the fascinating history of Cartagena, Colombia, and its encounters with pirates.",
+      region: "Global",
+    },
+    {
+      id: "lina-and-the-calendar",
+      title: "Lina and the Calendar",
+      origin: "Global",
+      description: "Lina imagines being Queen of the Calendar and creating special holidays with her father.",
+      region: "Global",
+    },
+    {
+      id: "who-took-my-baseball-cards",
+      title: "Who Took My Baseball Cards",
+      origin: "Global",
+      description: "A young baseball fan discovers his missing baseball card collection in an unexpected place.",
+      region: "Global",
+    },
+    {
+      id: "the-rabbit-and-the-turtle",
+      title: "The Rabbit and the Turtle",
+      origin: "Global",
+      description: "A classic tale of a race between a confident rabbit and a persistent turtle.",
+      region: "Global",
+    },
+    {
+      id: "dear-diary",
+      title: "Dear Diary",
+      origin: "Global",
+      description: "A child documents their exciting family vacation to Costa Rica, exploring rainforests and experiencing new adventures.",
+      region: "Global",
+    },
+    {
+      id: "can-inventions-make-our-world-smaller",
+      title: "Can Inventions Make Our World Smaller?",
+      origin: "Global",
+      description: "Learn about important inventions from different cultures that have changed our world, from fireworks to calendars to chocolate.",
+      region: "Global",
+    },
     {
       id: "the-emperors-new-clothes",
       title: "The Emperor's New Clothes",
@@ -48,15 +124,15 @@ export default function Level2Page() {
       region: "North America",
     },
     {
-      id: "the-legend-of-sleepy-hollow",
-      title: "The Mystery of Sleepy Valley",
-      origin: "American",
+      id: "the-stone-soup",
+      title: "The Stone Soup",
+      origin: "North America",
       description:
-        "A kind-hearted teacher named Ichabod discovers the magical secrets and friendly mysteries of a peaceful valley town.",
+        "When people come together and share their resources, they can create something greater than what they could achieve alone. True magic lies in cooperation and community spirit.",
       region: "North America",
     },
     {
-      id: "the-thousand-and-one-nights",
+      id: "aladdins-lamp",
       title: "Aladdin's Lamp",
       origin: "Middle Eastern",
       description:
@@ -117,8 +193,8 @@ export default function Level2Page() {
     {} as Record<string, typeof stories>,
   )
 
-  // Order of regions
-  const regionOrder = ["Europe", "Asia", "North America", "Africa"]
+  // Update the region order to show Global first
+  const regionOrder = ["Global", "Europe", "Asia", "North America", "Africa"]
 
   return (
     <div className="container px-4 py-12 md:px-6 md:py-24">
@@ -133,7 +209,7 @@ export default function Level2Page() {
           <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Intermediate Stories</h1>
         </div>
         <p className="max-w-[800px] text-slate-700 md:text-xl">
-          Explore 12 classic tales from around the world. These stories are designed for intermediate readers (Grade
+          Explore 23 classic tales from around the world. These stories are designed for intermediate readers (Grade
           4-5) and will help you develop more advanced reading skills and vocabulary.
         </p>
       </div>

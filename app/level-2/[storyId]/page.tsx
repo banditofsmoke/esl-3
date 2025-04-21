@@ -78,7 +78,7 @@ export default function StoryPage({ params }: StoryPageProps) {
       origin: "Danish",
       author: "Hans Christian Andersen",
       content: [
-        "In ancient China, there lived an emperor in a magnificent palace made of the finest porcelain. The palace walls were adorned with intricate designs of flowers and dragons, and in the garden grew the most beautiful flowers, with tiny silver bells tied to their stems that tinkled when the wind blew. The garden extended so far that even the gardener didn't know where it ended.",
+        "In ancient times, there lived an emperor in a magnificent palace made of the finest porcelain. The palace walls were adorned with intricate designs of flowers and dragons, and in the garden grew the most beautiful flowers, with tiny silver bells tied to their stems that tinkled when the wind blew. The garden extended so far that even the gardener didn't know where it ended.",
         "In this vast garden lived a nightingale, whose song was so beautiful that even the poor fishermen, who had so many other things to do, would stop to listen. Travelers from every corner of the world wrote books about the magnificent city, the palace, and most of all, about the nightingale's song, saying it was the most wonderful thing in the entire kingdom.",
         "These books eventually reached the emperor, who had never known about this treasure in his own garden. 'What? A nightingale?' he exclaimed. 'I have never heard of it. Is there such a bird in my empire, and even in my own garden? Why have I never been told about it? I have to read about things in my own kingdom in books!'",
         "The emperor immediately commanded his lord-in-waiting to bring the nightingale to court the very next evening. 'If it is not found,' he declared, 'the entire court will be punished after supper.' The lord-in-waiting ran up and down all the stairs, through halls and corridors, but none of the people he met had ever heard of the nightingale.",
@@ -185,72 +185,12 @@ export default function StoryPage({ params }: StoryPageProps) {
       moral: "Selfishness brings loneliness and sadness, while sharing and kindness bring joy and friendship. When we open our hearts to others, we create happiness not only for them but also for ourselves."
     },
     {
-      id: "the-gift-of-the-magi",
-      title: "The Gift of the Magi",
-      origin: "American",
-      author: "O. Henry",
-      content: [
-        "One dollar and eighty-seven cents. That was all Della had saved, and tomorrow was her best friend Jim's birthday. She had been saving one penny and two pennies at a time, careful with every purchase at the grocery store and the vegetable market. Three times Della counted it. One dollar and eighty-seven cents.",
-        "Della flopped down on her small couch with a sigh. She had hoped to buy something really special for Jim. You see, they each had one thing they were especially proud of. Jim had a beautiful gold watch that had belonged to his grandfather. Della had beautiful long brown hair that fell past her waist like a cascade of silk.",
-        "Suddenly, Della had an idea! She jumped up and looked in the mirror at her long, beautiful hair. Twenty minutes later, she walked into Madame Sofronie's Hair Goods shop. 'Will you buy my hair?' asked Della. 'I give good prices for good hair,' said Madame Sofronie. Soon, Della left the shop with twenty dollars!",
-        "With the money, Della found the perfect gift - a platinum chain for Jim's precious watch. Simple and elegant, it was just right for Jim's treasured timepiece. She couldn't wait to give it to him!",
-        "That evening, when Jim came for his birthday celebration, he stared at Della in surprise. She had tied a ribbon around her now-short hair. 'Don't worry!' she said quickly. 'It grows back! And look - I got you this for your watch!'",
-        "Jim smiled softly and handed Della a package. 'Open it,' he said. Della unwrapped it eagerly. Inside were the beautiful combs she had admired in a shop window - perfect for long hair. 'I sold my watch to buy them for you,' Jim admitted.",
-        "They sat quietly for a moment, these two young friends who had each given up their most precious possession to buy a gift for the other. Then they began to laugh. The combs would have to wait for Della's hair to grow back, and the watch chain would have to wait for Jim to save up for another watch.",
-        "But as they shared birthday cake and ice cream, they knew they had given each other the most valuable gift of all - the gift of friendship and sacrifice. And that made them the wisest of all who give gifts."
-      ],
-      vocabulary: [
-        { word: "cascade", definition: "a small waterfall; something falling or hanging like a waterfall" },
-        { word: "precious", definition: "of great value; not to be wasted or treated carelessly" },
-        { word: "sacrifice", definition: "giving up something valued for the sake of something else" },
-        { word: "elegant", definition: "graceful and stylish in appearance" },
-        { word: "admired", definition: "regarded with respect or warm approval" }
-      ],
-      region: "North America",
-      moral: "True friendship is shown not in the gifts we give, but in the sacrifices we make for others. The most valuable things in life can't be bought with money."
-    },
-    {
-      id: "the-legend-of-sleepy-hollow",
-      title: "The Legend of Sleepy Hollow",
-      origin: "American",
-      author: "Washington Irving",
-      content: [
-        "In a peaceful valley called Sleepy Hollow lived Ichabod Crane, a tall, lanky schoolteacher who loved telling stories. The valley was known for its mysterious fog and strange shadows at night, which made people's imaginations create wonderful tales.",
-        "In this by-place of nature there abode, some thirty years since, a worthy wight of the name of Ichabod Crane, who sojourned in Sleepy Hollow for the purpose of instructing the children of the vicinity. He was tall, but exceedingly lank, with narrow shoulders, long arms and legs, hands that dangled a mile out of his sleeves.",
-        "His head was small, and flat at top, with huge ears, large green glassy eyes, and a long snipe nose, so that it looked like a weather-cock perched upon his spindle neck to tell which way the wind blew. To see him striding along the profile of a hill on a windy day, with his clothes bagging and fluttering about him, one might have mistaken him for some scarecrow eloped from a cornfield.",
-        "From his school-house, he would often make his way to the farmhouse of old Baltus Van Tassel, who had an only child, the blooming Katrina Van Tassel. She was a little of a coquette, as might be perceived even in her dress, which was a mixture of ancient and modern fashions, well suited to set off her charms.",
-        "Ichabod had a soft and foolish heart towards the sex, and it is not to be wondered at that so tempting a morsel soon caught his eye, especially after he had visited her in her paternal mansion. Old Baltus Van Tassel was a perfect picture of a thriving, contented, liberal-hearted farmer.",
-        "But there was one who was a formidable rival to Ichabod: the renowned Brom Bones, a burly, roaring, roistering blade who was always ready for either a fight or a frolic. He had more mischief than ill-will in his composition, and with all his overbearing roughness, there was a strong dash of waggish good humor at bottom.",
-        "One autumnal evening, Ichabod was invited to a merrymaking, or 'quilting frolic,' at the Van Tassels'. All the wealth of glorious foodstuffs of the farms was there. And there were the treasures of fruit dishes of various kinds that had been garrulously praised by Ichabod.",
-        "After the feast came the dance. Ichabod was attracted by Katrina's charms, while Brom Bones sat brooding by himself in a corner. When the party broke up, Ichabod stayed behind to have a tête-à-tête with Katrina. What passed between them no one knows, but something must have gone wrong, for he soon took his leave with an air quite desolate.",
-        "It was the very witching time of night as Ichabod made his way home along the high hills which rise above Tarry Town. All the stories of ghosts and goblins that he had heard in the afternoon now came crowding upon his recollection. The night grew darker and darker; the stars seemed to sink deeper in the sky.",
-        "Suddenly he heard a groan—his teeth chattered and his knees smote against the saddle. It was but the rubbing of one huge bough upon another as they were swayed about by the breeze. He passed the tree in safety, but new perils lay before him.",
-        "About two hundred yards from the tree, a small brook crossed the road. Just at this moment, in the dark shadow of the grove, on the margin of the brook, he beheld something huge, misshapen, black, and towering. It stirred not, but seemed gathered up in the gloom, like some gigantic monster ready to spring upon the traveler.",
-        "The hair of the affrighted pedagogue rose upon his head with terror. What was to be done? To turn and fly was now too late. Summoning up, therefore, a show of courage, he demanded in stammering accents, 'Who are you?' He received no reply.",
-        "He repeated his demand in a still more agitated voice. Still there was no answer. Once more he cudgeled the sides of the inflexible Gunpowder, his horse, and, shutting his eyes, broke forth with involuntary fervor into a psalm tune. Just then the shadowy object of alarm put itself in motion, and with a scramble and a bound stood at once in the middle of the road.",
-        "Though the night was dark and dismal, yet the form of the unknown might now in some degree be ascertained. He appeared to be a horseman of large dimensions, and mounted on a black horse of powerful frame. He made no offer of molestation or sociability, but kept aloof on one side of the road, jogging along on the blind side of old Gunpowder.",
-        "Ichabod quickened his steed in hopes of leaving him behind. The stranger, however, quickened his horse to an equal pace. Ichabod pulled up, and fell into a walk, thinking to lag behind—the other did the same. His heart began to sink within him."
-      ],
-      vocabulary: [
-        { word: "indent", definition: "form deep recesses in a coastline or surface" },
-        { word: "sequestered", definition: "isolated and hidden away" },
-        { word: "apparition", definition: "a ghost or ghostlike image" },
-        { word: "sojourned", definition: "stayed temporarily" },
-        { word: "pedagogue", definition: "a teacher, especially a strict or pedantic one" },
-        { word: "garrulously", definition: "excessively talkative, especially about trivial matters" },
-        { word: "inflexible", definition: "unwilling to change or compromise" },
-        { word: "molestation", definition: "pestering or harassing behavior" }
-      ],
-      region: "North America",
-      moral: "Fear and imagination can transform ordinary circumstances into extraordinary terrors, and sometimes our own superstitions become our greatest enemies."
-    },
-    {
-      id: "the-thousand-and-one-nights",
+      id: "aladdins-lamp",
       title: "Aladdin's Lamp",
       origin: "Middle Eastern",
       author: "Unknown",
       content: [
-        "In a far-off city of China lived a poor tailor who had a son named Aladdin. Aladdin was a careless, idle boy who would do nothing but play all day long in the streets with other idle children of his own age. This so grieved his father that he died, yet Aladdin continued in his idle ways.",
+        "In a far-off city in the Middle East lived a poor tailor who had a son named Aladdin. Aladdin was a careless, idle boy who would do nothing but play all day long in the streets with other idle children of his own age. This so grieved his father that he died, yet Aladdin continued in his idle ways.",
         "One day, as he was playing in the streets as usual, a stranger approached him. This stranger was a sorcerer who had noticed Aladdin's resemblance to someone he needed for his magical plans. He approached Aladdin, pretending to be his uncle who had been away for many years.",
         "The sorcerer told Aladdin about a wonderful lamp hidden in a cave, which would make them both rich. Though Aladdin was suspicious at first, the promise of wealth convinced him to help. The sorcerer led him to a secret cave filled with treasures, but what he really wanted was an old lamp that seemed worthless compared to the jewels surrounding it.",
         "Before entering the cave, the sorcerer gave Aladdin a ring for protection. 'Remember,' he said, 'you must bring me the lamp before you touch any other treasure.' Aladdin descended into the cave and found himself in a garden where precious stones hung from trees like fruit. The sight almost made him forget his purpose.",
@@ -413,38 +353,510 @@ export default function StoryPage({ params }: StoryPageProps) {
       moral: "Kindness and sharing can win powerful friends, and working together makes difficult tasks possible. True strength lies not just in physical power, but in showing mercy and wisdom."
     },
     {
-      id: "the-legend-of-mulan",
-      title: "The Legend of Mulan",
-      origin: "Chinese",
+      id: "the-stone-soup",
+      title: "The Stone Soup",
+      origin: "North America",
       author: "Traditional",
       content: [
-        "In ancient China, a young woman named Hua Mulan lived with her elderly father, mother, and younger sister. When the Emperor decreed that one man from each family must serve in the Imperial Army to defend against invaders, Mulan was worried because her father was too old and frail to fight.",
-        "Mulan had grown up learning both traditional women's arts and martial skills from her father, a retired warrior. In secret, she had practiced archery and swordsmanship, showing natural talent that matched her determination. She knew she could not let her father march to certain death.",
-        "Late one night, Mulan cut her long hair with her father's sword and bound her chest. She donned her father's armor, took his conscription notice, and rode away on her horse, Black Wind, before dawn. Her parents discovered her absence and the letter she left behind, explaining her decision to protect both her father and their family's honor.",
-        "Life in the army was challenging. Mulan had to be constantly vigilant to maintain her disguise. She bathed at night when no one could see her, spoke little to avoid suspicion, and worked twice as hard as any other soldier to prove herself. Her skill with both bow and sword soon earned her the respect of her fellow warriors.",
-        "For twelve long years, Mulan fought in numerous battles, rising through the ranks through her combination of physical prowess and clever strategy. She became known for finding ways to win battles while minimizing casualties on both sides. Her commanders praised her ability to think differently from other generals.",
-        "In one crucial battle, Mulan saved the entire army by leading them through a mountain pass that others had deemed too dangerous. She had noticed the migration patterns of local birds, which revealed a safe route. This victory earned her a position as a high-ranking general.",
-        "Her most challenging moment came when she was wounded in battle. A physician was summoned, but Mulan managed to treat her own injuries in private, using knowledge of medicine she had learned from her mother. This incident only added to her legend, as soldiers spoke of a warrior who needed no help even when gravely injured.",
-        "After twelve years of service, the Emperor himself summoned Mulan to the capital to honor her achievements. He offered her a position as his minister, but Mulan declined, revealing her true identity. The Emperor was amazed by her courage and dedication, declaring that gender matters not in the service of one's country.",
-        "When offered wealth and titles, Mulan asked only for a swift horse to carry her home to her family. The Emperor honored her request but also sent her home with gifts symbolizing both masculine and feminine virtues: a sword representing her courage in war, and jade representing her unwavering devotion to family.",
-        "Returning home at last, Mulan found her parents had aged but were well, and her sister had grown into a beautiful young woman. She changed from her armor into her old clothes, letting down what remained of her hair. When her old comrades visited later, they were shocked to discover that their brilliant general was a woman.",
-        "The story of Mulan spread throughout China, inspiring generations to come. She became a symbol of loyalty, courage, and the belief that one's worth comes not from gender but from the strength of one's heart and the righteousness of one's actions. Her legend taught that the greatest power lies not in physical strength alone, but in the unwavering spirit to protect what one loves."
+        "In a small village during a time of scarcity, a clever traveler arrived carrying nothing but an empty cooking pot. The villagers were wary of strangers and had hidden away their food, unwilling to share with anyone.",
+        "The traveler went to the village square, filled his pot with water, and placed a smooth stone inside. As he built a fire under the pot, a curious villager approached and asked what he was doing. 'I'm making stone soup,' the traveler replied cheerfully. 'It's delicious, though it could use a little garnish.'",
+        "The villager thought it impossible to make soup from a stone, but she was intrigued. The traveler assured her the soup would be ready soon, though he mentioned how much better it would be with a few carrots. The villager hurried home and returned with carrots from her garden.",
+        "Another villager stopped to observe and heard about the magical stone that made soup. 'Of course,' said the traveler, 'it would taste even better with some potatoes.' The second villager ran home and brought back potatoes from his storehouse.",
+        "Soon, more villagers gathered, each hearing about the wonderful stone soup. One brought fresh corn, another offered onions, and someone else contributed beans. A child arrived with a handful of fresh herbs from his mother's garden.",
+        "As the soup cooked, its aroma filled the village square. The traveler stirred the pot, occasionally tasting and commenting on how the stone was producing such wonderful flavor. Someone brought bowls and spoons, while another villager offered fresh-baked bread.",
+        "When the soup was ready, everyone gathered to taste it. They had never experienced such delicious soup, amazed that it came from a simple stone. The villagers listened intently as the traveler explained how the stone's magic worked best when people worked together.",
+        "That evening, the entire village enjoyed a feast. There was music, laughter, and sharing of old stories. The villagers who had been suspicious of each other began to talk and smile, rediscovering their sense of community.",
+        "Before leaving the next morning, the traveler removed the stone from the pot and washed it carefully. A child asked if he would leave the magical stone behind. The traveler smiled and said, 'The magic is not in the stone, but in what happens when people come together and share.'"
       ],
       vocabulary: [
-        { word: "decree", definition: "an official order issued by a legal authority" },
-        { word: "invaders", definition: "people who enter a country or region by force" },
-        { word: "disguised", definition: "changed one's appearance to conceal identity" },
-        { word: "campaigns", definition: "series of military operations intended to achieve a goal" },
-        { word: "warrior", definition: "a brave or experienced soldier or fighter" },
-        { word: "vigilant", definition: "keeping careful watch for possible danger" },
-        { word: "prowess", definition: "exceptional valor, bravery, or ability" },
-        { word: "casualties", definition: "people killed or injured in war or accidents" },
-        { word: "minister", definition: "a high-ranking government official" },
-        { word: "unwavering", definition: "steady, resolute, not changing or faltering" }
+        { word: "scarcity", definition: "a lack of something; not having enough" },
+        { word: "wary", definition: "careful or suspicious about something" },
+        { word: "garnish", definition: "something added to food to make it look or taste better" },
+        { word: "intrigued", definition: "very interested or curious about something" },
+        { word: "contribute", definition: "to give or provide something to help a common purpose" },
+        { word: "aroma", definition: "a pleasant, noticeable smell" },
+        { word: "community", definition: "a group of people living in the same place or having characteristics in common" },
+        { word: "feast", definition: "a large meal, usually for many people celebrating something" }
       ],
-      region: "Asia",
-      moral: "Courage, dedication, and love for family know no gender. True honor comes not from following traditional roles, but from having the strength to do what is right, even in the face of great adversity."
+      region: "North America",
+      moral: "When people come together and share their resources, they can create something greater than what they could achieve alone. True magic lies in cooperation and community spirit."
     },
+    {
+      id: "the-gift-of-the-magi",
+      title: "The Gift of the Magi",
+      origin: "American", 
+      author: "O. Henry",
+      content: [
+        "In a modest apartment on the third floor of a weathered brownstone lived a young couple, Jim and Della Young. Though poor in material wealth, they were rich in love for each other. Their small home was sparsely furnished, but they had two possessions of which they were immensely proud. Della's beautiful long hair fell like a cascade of brown waters, reaching below her knees - a shimmering curtain that glinted gold when sunlight touched it. Jim's gold watch, inherited from his father and grandfather, was his most precious possession, its gleaming case and crystal face a reminder of his family's noble history.",
+        "Winter had been harsh that year, and Christmas was approaching fast. Despite careful saving and penny-pinching throughout the year, Della had only $1.87 to buy Jim a present. She had tried everything - bargaining at the market, taking in extra laundry, even skipping meals to save a few cents. But New York City was expensive, and their eight dollars a week didn't stretch far. Each night, after Jim fell asleep, she would cry quietly, desperate to find a way to buy him something special.",
+        "The day before Christmas, Della stood before the mirror in their tiny apartment, letting down her beautiful hair. She had always known that Jim loved watching her brush it in the evenings, his eyes following the rippling waves of brown. As she stared at her reflection, an idea formed - terrifying yet perfect. Her hands trembling, she grabbed her old brown jacket and hurried out into the cold December air.",
+        "Madame Sofronie's Hair Goods shop was dark and cramped, smelling of dust and old perfume. The proprietress, a harsh-faced woman, barely glanced at Della's magnificent hair before naming her price: 'Twenty dollars.' It was more than Della had hoped for. Fighting back tears, she watched as her beautiful hair fell to the floor in long, thick strands. The cold air felt strange against her newly-bare neck.",
+        "With the twenty dollars clutched tightly in her hand, Della spent the next two hours searching every shop in the city. Finally, in a small jeweler's window, she found it - the perfect platinum fob chain for Jim's precious watch. Simple yet elegant, it was worthy of being attached to such a fine timepiece. It cost her all twenty-one dollars and eighty-seven cents, but as she hurried home with the precious package, her heart was light.",
+        "Back in their apartment, Della used her small curling iron to try to fix her now-short hair, worried that Jim would be shocked by her changed appearance. The tiny clock on the mantlepiece struck seven - Jim would be home any minute. She sat nervously by the door, the platinum chain wrapped in brown paper and ribbons in her lap, praying he wouldn't be too upset about her hair.",
+        "When Jim stepped in from the cold and saw her, he froze. His eyes held an expression she couldn't read, and her heart nearly stopped. 'Jim, darling,' she cried, 'don't look at me that way. I had my hair cut and sold it because I couldn't have lived through Christmas without giving you a present. It'll grow back - you won't mind, will you? My hair grows awfully fast.'",
+        "But instead of responding, Jim pulled a package from his overcoat and handed it to her, a gentle smile playing on his lips. Della's fingers tore at the string and paper. A gasp of joy emerged from her lips, immediately followed by a wail of despair. For there lay The Combs - the set of pure tortoise shell hair combs, banded with jewels, that she had worshipped for months in a Broadway window. Beautiful combs, suitable for the beautiful hair that was no longer hers.",
+        "Through her tears, Della saw that Jim hadn't yet looked at his beautiful present. She held out the chain on her open palm. 'Isn't it perfect, Jim? I hunted all over town to find it. Now you'll need to check the time a hundred times a day. Give me your watch. I want to see how it looks on it.'",
+        "Jim sank into their old couch and smiled. 'Dell,' he said softly, 'let's put our Christmas presents away and keep them a while. They're too nice to use just at present. I sold the watch to get the money to buy your combs.'",
+        "Della crawled into Jim's lap, the platinum chain in one hand, the beautiful combs in the other. They held each other and smiled, knowing that their love was worth more than all the watches and hair in the world. For they had each given up their most precious possession to show their love for each other, unknowingly following the example of the Magi - those wise men who invented the art of giving Christmas gifts.",
+        "Later that evening, as they sat down to their simple dinner of meat loaf and potatoes, they realized that no gift could ever be as precious as their love for each other. The combs would wait for Della's hair to grow back, and someday they might have enough saved for another watch. But for now, they had the greatest gift of all - two hearts that beat as one, willing to sacrifice everything for love."
+      ],
+      vocabulary: [
+        { word: "cascade", definition: "a small waterfall or anything falling like one" },
+        { word: "fob", definition: "a short chain attached to a watch" },
+        { word: "precious", definition: "of great value or worth" },
+        { word: "sacrifice", definition: "giving up something valued for something else" },
+        { word: "proprietress", definition: "a woman who owns a business or property" },
+        { word: "pittance", definition: "a very small amount of money" },
+        { word: "prudent", definition: "careful and wise in handling practical matters" },
+        { word: "sparsely", definition: "thinly scattered or distributed" },
+        { word: "procured", definition: "obtained with care or effort" },
+        { word: "reverent", definition: "feeling or showing deep respect" }
+      ],
+      region: "North America",
+      moral: "The greatest gifts are those given with love, and true wealth lies not in possessions but in the depth of love we share."
+    },
+    {
+      id: "why-the-sky-is-far-away", 
+      title: "Why the Sky is Far Away",
+      origin: "Nigerian",
+      author: "Traditional",
+      content: [
+        "Long ago, the sky was close to the earth, so close that people could reach up and break off pieces to eat. The sky was made of sweet, nourishing food that never ran out. The food from the sky had every flavor imaginable - sweet like honey, savory like roasted nuts, and refreshing like spring water. People only needed to reach up when they were hungry, take what they needed, and the sky would replenish itself overnight.",
+        "Life was peaceful in those days. Children would play beneath the low-hanging clouds, occasionally reaching up to pluck a treat. The elderly never went hungry, and even the smallest villages had plenty to share. This was a special gift from the sky, and most people treated it with reverence and gratitude.",
+        "The king of this land repeatedly warned his people to take only what they needed and never waste the sky's food. 'The sky gives us this gift,' he would say, 'but we must respect it.' He would gather the village elders each month to discuss how to preserve this blessing and teach the young ones about responsibility. Most people heeded his words, taking only what they could eat and sharing with others.",
+        "However, as time passed, some people became wasteful. They would take more than they needed, let food spoil, and even use the sky's food to play games. Young men would compete to see who could grab the most pieces, letting them fall unused to the ground. Women would gather more than their families could eat, letting the excess turn bad in their storage bins. Children began throwing the sacred food at each other in play, forgetting its true purpose.",
+        "The king was deeply troubled by this behavior. He sent messengers to every village, reminding people of their duty to respect the sky's gift. He organized festivals where the elders would tell stories about the sky's generosity, hoping to restore people's gratitude. But despite his efforts, the wastefulness continued to grow.",
+        "The sky watched all of this with growing sadness. Dark clouds began to gather, and the taste of the sky's food became less sweet. Still, people failed to notice these warning signs. They continued their wasteful ways, ignoring the king's warnings and the pleas of their neighbors. The wind would whisper warnings at night, but few paid attention.",
+        "One day, after seeing people throwing away piles of uneaten sky-food, the sky spoke in a voice like thunder: 'I gave you this gift out of love, but you have not respected it. For generations, I have provided for you, asking only for gratitude and respect in return. Now you must learn to work for your food.' With that, the sky began to move upward, slowly at first, then faster.",
+        "People watched in horror as their source of easy food drifted away. Children cried and reached up with their small hands, but the sky continued to rise. The king and his advisors prayed for forgiveness, but it was too late. The sky moved up and up until it reached where it remains today, high above the tallest trees.",
+        "From that day forward, people had to plant seeds, tend crops, and work hard for their food. They learned to plow fields and wait patiently for harvest time. The sky's lesson was clear: Earth's gifts must be respected and never wasted. Through their labor, people began to understand the true value of food and the importance of preserving nature's gifts.",
+        "The king established new traditions to honor this lesson. Before each meal, families would remember the time when the sky was close enough to touch. Parents taught their children to value every morsel of food, and nothing was wasted. The people learned that working for their food made them appreciate it more, and the community grew stronger through sharing and helping each other in the fields.",
+        "Even today, when people look up at the distant sky, they remember this story and teach their children to respect the earth's gifts. And on quiet nights, some say they can still taste a hint of sweetness in the rain - a reminder of the time when the sky fed its children directly from above."
+      ],
+      vocabulary: [
+        { word: "replenish", definition: "to fill or make complete again" },
+        { word: "heed", definition: "to pay attention to; take notice of" },
+        { word: "wasteful", definition: "using more than is needed" },
+        { word: "bounty", definition: "something given generously" },
+        { word: "sacred", definition: "connected with God or a god; holy and deserving respect" },
+        { word: "abundance", definition: "a very large quantity; plenty" },
+        { word: "morsel", definition: "a small piece or bit of food" },
+        { word: "gratitude", definition: "the quality of being thankful" },
+        { word: "trembled", definition: "shook or vibrated with quick, short movements" },
+      ],
+      region: "Africa",
+      moral: "We must respect and not waste nature's gifts, for they are precious and can be taken away if we don't show proper gratitude and responsibility."
+    },
+    {
+      id: "the-two-cousins",
+      title: "The Two Cousins",
+      origin: "Lower Intermediate",
+      author: "Reading Series",
+      content: [
+        "Deb and Nan are talking on the phone. Deb is excited. Soon she is going to see her cousin, Nan. Nan is from Jamaica. She is just a little older than Deb.",
+        "Nan is flying from Jamaica today. Deb is going to the airport to meet her. Nan gets off the plane with her mother. Deb knows it is Nan. She waves her hand when she sees her. Nan is so happy, she has a big smile on her face.",
+        "That afternoon, the two cousins go to the zoo. They like the hippos and the elephants. They love the monkeys! Then they go into a building where it is dark. Deb sees a big, long snake. She gets scared and jumps.",
+        "Deb and Nan have a good time. They take the bus to the city, and they go to a carnival. After a week, it is time to say good-bye. The two girls are sad. They take pictures before Nan has to go."
+      ],
+      vocabulary: [
+        { word: "excited", definition: "very happy about something" },
+        { word: "airport", definition: "place where planes land and take off" },
+        { word: "carnival", definition: "fun fair with rides and games" },
+        { word: "scared", definition: "feeling afraid" }
+      ],
+      region: "Global",
+      moral: "Family bonds are special and can bridge any distance or cultural differences."
+    },
+    {
+      id: "malcolms-saturday-morning",
+      title: "Malcolm's Saturday Morning",
+      origin: "Lower Intermediate",
+      author: "Reading Series",
+      content: [
+        "Malcolm usually sleeps late on weekends, but today he got up early. 'Good morning,' said Mother. 'I am going shopping now. Father is in the study working on the computer. After breakfast, please wash your dishes and take out the garbage. I will return in time to go to that movie we talked about.'",
+        "Malcolm said good-bye to Mother. Then he went back to the kitchen. Surprise! His breakfast was on the table—an egg sandwich. What a nice surprise, but what a mess!",
+        "'Hello,' someone said. Malcolm had never seen him before. 'Who are you?' Malcolm asked. 'My name is Red,' he said. 'I made you a sandwich. Enjoy it!'",
+        "'Thank you,' said Malcolm. After Malcolm ate the sandwich he said, 'Great sandwich! Thanks. Now I will wash my dishes and take out the garbage.'",
+        "'That is no fun,' Red said. 'Let's sing and dance!' So they sang and danced, It was fun, but what a mess Red made!",
+        "Then Red said, 'Your mother is home! Run and hug her. Then come back.' When Malcolm and Mother got back to the kitchen, Red was not there. But the kitchen was clean, clean, clean.",
+        "Mother said, 'This looks so good! You worked hard.' 'Oh, no,' said Malcolm. 'It was fun!'"
+      ],
+      vocabulary: [
+        { word: "garbage", definition: "trash or waste that needs to be thrown away" },
+        { word: "surprise", definition: "something unexpected" },
+        { word: "mess", definition: "dirty or untidy state" },
+        { word: "chores", definition: "regular household tasks" }
+      ],
+      region: "Global",
+      moral: "Work can be fun when approached with the right attitude and a little imagination."
+    },
+    {
+      id: "robertos-dinner",
+      title: "Roberto's Dinner",
+      origin: "Lower Intermediate",
+      author: "Reading Series",
+      content: [
+        "One head of lettuce. Roberto was writing the grocery list. He put it on the refrigerator. He dropped into his chair.",
+        "'I miss Father,' he said. Roberto's father opened a new restaurant in the city last week. He always worked days. Now he worked some nights, too. Roberto hoped to see the new restaurant soon.",
+        "'I know,' Roberto's mother said. 'Your father is working hard. I miss him, too. But you and I can have some fun. Let's go out to get dinner. Then we can go to a movie.'",
+        "'I'm not hungry,' said Roberto. 'Come on,' his mother said. 'You like to eat at restaurants.' So they went.",
+        "'I like onion soup, lemon chicken, milk, and a fruit salad, please,' Mother told the waiter. Roberto looked at the menu. 'I'm not very hungry,' he said.",
+        "'He misses his father,' Mother said. 'I can order for Roberto. He would like a hamburger, fries, green beans, and a soda. And chocolate cake!'",
+        "The waiter served the food. Mother ate. Roberto did not. 'Don't you like our food?' the waiter asked. 'Let me get the owner.' Roberto did not see his mother smile.",
+        "Then a man asked, 'You don't like our cooking?' Roberto looked up. It was Father! 'Welcome to my new restaurant, Roberto,' Father said. 'I missed you so much!'"
+      ],
+      vocabulary: [
+        { word: "restaurant", definition: "place where people pay to eat meals" },
+        { word: "waiter", definition: "person who serves food in a restaurant" },
+        { word: "menu", definition: "list of food available to order" },
+        { word: "owner", definition: "person who owns something" }
+      ],
+      region: "Global",
+      moral: "Sometimes what seems like a sad situation can turn into a happy surprise."
+    },
+    {
+      id: "take-care-of-yourself",
+      title: "Take Care of Yourself",
+      origin: "Lower Intermediate",
+      author: "Reading Series",
+      content: [
+        "Richard and Amy love sports. When they exercise, they feel healthy and happy. How do they do it? Let's take a look.",
+        "Amy plays baseball and is on a swim team at her school. So, she needs to take care of herself. Amy says you can do many things to take care of yourself.",
+        "When you play baseball, you should stretch before every game. Amy says you shouldn't drink much water right before a game. When she did, she got a stomachache.",
+        "Amy says that the night before a game, you should eat foods like spaghetti and bread. The morning of a game, you should eat foods like toast and fruit for breakfast.",
+        "There can be accidents in a baseball game. So you should always wear a helmet on your head when you go to hit the ball.",
+        "Richard is on Amy's swim team. He swims all year. He is at the pool every morning at six o'clock and swims for ninety minutes. After that, he starts his school day.",
+        "Before Richard swims, he likes to stretch. This is how he prepares his body for swimming. He stretches because he doesn't want to hurt his body while he's swimming.",
+        "Richard says that you should swim and eat foods like fruit, chicken, and bread to stay healthy. He does not eat a lot of sweets. Richard says that when he doesn't take care of himself, he sometimes gets sick. He gets an earache or a cold.",
+        "Richard says that when you work hard to be healthy, you will feel good about yourself. And that's what sports are all about!"
+      ],
+      vocabulary: [
+        { word: "exercise", definition: "physical activity to keep fit and healthy" },
+        { word: "stretch", definition: "extend your arms and legs to prepare for exercise" },
+        { word: "stomachache", definition: "pain in your stomach" },
+        { word: "healthy", definition: "in good health" }
+      ],
+      region: "Global",
+      moral: "Taking care of your body through proper exercise and nutrition helps you stay healthy and feel good."
+    },
+    {
+      id: "dear-diary",
+      title: "Dear Diary",
+      origin: "Intermediate",
+      author: "Reading Series",
+      content: [
+        "Dear Diary, Here we are in Costa Rica! We got to the hotel just in time for lunch. Our waiter said that the fish with vegetables was good. It was wonderful! We also enjoyed the tropical fruit we ate for dessert. We could see a lake and the Arenal Volcano from the dining room window. Dad and I took a boat ride and Mom and Mario rested by the pool. Now Mario wants to be a lifeguard so he can stay by the pool all day!",
+        "Dear Diary, Today we hiked to the rain forest. And it was NOT rainy! That's because it's the dry season. It hasn't rained for three months! I'm happy I decided to take photos. I took some good pictures of monkeys and bees at a water hole. The monkeys love to play in the water and get very wet. But they didn't look happy with the bees.",
+        "Dear Diary, We went back to the rain forest to watch other animals at the water hole. A loud noise made the animals run, but in a short time they returned. The water hole stays wet because it gets water from under the ground. It's still sunny. When does the weather change here?",
+        "Dear Diary, Last night we slept inside a tent in the rain forest. It was cool, but we were warm in our sleeping bags. When it started to rain, we were hiking. Then it poured! It was not a day to be outdoors, so we went back to the hotel. Later today we fly home—at eleven o'clock. What a wonderful, wonderful trip!"
+      ],
+      vocabulary: [
+        { word: "tropical", definition: "characteristic of hot regions near the equator" },
+        { word: "volcano", definition: "a mountain that can erupt with lava and ash" },
+        { word: "rainforest", definition: "a dense forest in a tropical region with high rainfall" },
+        { word: "waterhole", definition: "a natural pool where animals gather to drink" }
+      ],
+      region: "Global",
+      moral: "Travel helps us appreciate nature and different environments, creating lasting memories with family."
+    },
+    {
+      id: "can-inventions-make-our-world-smaller",
+      title: "Can Inventions Make Our World Smaller?",
+      origin: "Intermediate",
+      author: "Reading Series",
+      content: [
+        "Did you ever wonder how things were discovered or invented? This is the story of four important inventions. Thanks to the Chinese, we can enjoy fireworks! How they were invented is a mystery. We think that the Chinese made fireworks to protect themselves from enemies. But, it all happened a long, long time ago.",
+        "Think of fireworks. Imagine a rainbow of colors dancing in the sky. Imagine the BOOM! Billions all over the world enjoy this wonderful Chinese invention.",
+        "A very important invention for all of us was the calendar. Calendars were invented in a number of countries: China, Mexico, France, and India. But the first calendar with 365 days was invented in Egypt. The Egyptian calendar had twelve months, every month had thirty days. The five days left at the end of the year were used for celebrations. Can you imagine where we might be without the calendar?",
+        "Chocolate! We know where it came from. For years and years the Aztecs used the beans of a tree to make chocolate. Then in the 1500s, the Aztec Emperor Montezuma presented a delicious chocolate drink to explorers who had come to Mexico from Spain. They took it back to Spain. It was one of the first exports from the New World to the Old World. From that time on, chocolate was very popular in Spain. Today, the world loves chocolate milk, ice cream, and candy!"
+      ],
+      vocabulary: [
+        { word: "invention", definition: "something new that someone has created" },
+        { word: "fireworks", definition: "explosive devices that produce colorful displays in the sky" },
+        { word: "calendar", definition: "a system for organizing days and months" },
+        { word: "exports", definition: "goods sent to another country for sale" }
+      ],
+      region: "Global",
+      moral: "Inventions from different cultures have enriched our lives and brought the world closer together."
+    },
+    {
+      id: "anitasaurus",
+      title: "Anitasaurus",
+      origin: "Lower Intermediate",
+      author: "Reading Series",
+      content: [
+        "'Look at the size of those teeth!' said Marcos. 'They are huge! Like sharp spikes! And those bony plates on its head are a meter longer than those of most other dinosaurs. Just what kind of dinosaur is this, Dr. Anita?' Anita smiled and looked at the big fossil again.",
+        "'I named her Anitasaurus,' Anita told him. 'Isn't she sweet? I hunted for her for years. She's bigger than a T. rex. She's bigger than anything!' Anita picked up a chisel. 'Come on, Marcos. Help me cut the rock from her leg bone.'",
+        "'The last dinosaurs died 65 million years ago,' said Marcos. 'But they are still making work for me now!'",
+        "Anita looked at Anitasaurus. The fossil was so different! Its head was the size of a car. And it had four horns on its head and five claws on every foot.",
+        "Anita was so happy she found Anitasaurus. 'Come on, Marcos,' she said. 'We want to get an award for finding this dinosaur, so let's finish working.'",
+        "Clank! Clank! Clank! Anita felt as if she were falling.",
+        "But Anita's hat was hitting the bed. She was not digging up the dinosaur, after all. She was just dreaming she was digging up the dinosaur!",
+        "'I am going to find a real dinosaur one day,' Anita said. 'I really am. And when I find it, I am going to name it Anitasaurus!'"
+      ],
+      vocabulary: [
+        { word: "fossil", definition: "remains of an ancient animal preserved in rock" },
+        { word: "chisel", definition: "tool used for cutting rock or wood" },
+        { word: "horns", definition: "hard pointed parts that grow on an animal's head" },
+        { word: "award", definition: "prize given for an achievement" }
+      ],
+      region: "Global",
+      moral: "Dreams can inspire us to work hard and achieve our goals."
+    },
+    {
+      id: "my-trip-to-cartagena",
+      title: "My Trip to Cartagena",
+      origin: "Lower Intermediate",
+      author: "Reading Series",
+      content: [
+        "We traveled by airplane to Cartagena. It is a city in Colombia. A guide told us about the city long ago.",
+        "'Who knows who lived here then?' she asked.",
+        "'Was it the Spanish?' I asked.",
+        "'Yes,' she said, 'but the tribe of Caribes lived here first. The Spanish came in the 1500s and built many of the buildings you see today.'",
+        "'Then one day in 1586, the explorer Sir Francis Drake and his men came to Cartagena from England,' she said. 'They heard that the Spanish had lots of gold. Drake wanted the gold.'",
+        "'Did he get it?' I asked.",
+        "'Drake went in at night,' she said.",
+        "'Did they have lights?' I asked.",
+        "'No,' she said, 'It was different in 1586. Electric lights weren't invented then. The city didn't have street lamps. It was very dark. So one of Drake's men lit a small fire to help him see. The Spanish saw the light.'",
+        "'What happened then?' I asked.",
+        "'Some of the men hid the gold. Some started to fight Drake and his men.'",
+        "'Did Drake get any gold?' I asked.",
+        "'Yes, he got some of it. His men took it away by boat. But Drake was not the last person to try to take gold from the city. The Spanish people needed to protect their gold. So they built this and lots of other strong buildings to protect the city. We are lucky they did, because these old buildings are still standing for us to see today!'"
+      ],
+      vocabulary: [
+        { word: "guide", definition: "person who shows and explains places to visitors" },
+        { word: "explorer", definition: "person who travels to discover new places" },
+        { word: "tribe", definition: "group of people who live together" },
+        { word: "protect", definition: "keep safe from harm" }
+      ],
+      region: "Global",
+      moral: "History helps us understand how the past shaped the places we see today."
+    },
+    {
+      id: "lina-and-the-calendar",
+      title: "Lina and the Calendar",
+      origin: "Lower Intermediate",
+      author: "Reading Series",
+      content: [
+        "Lina hung up the watering can. She put the shovel away. She was helping her father clean up the yard.",
+        "'I know what I am going to be one day,' she told him.",
+        "'What are you going to be?' Father asked.",
+        "'I am going to be Queen of the Calendar,' Lina said.",
+        "'What does a Calendar Queen do?' Father asked. He gave her a rake.",
+        "'She names new holidays to celebrate,' Lina said. 'She names special holidays for every week and every month of the year.'",
+        "Father smiled. 'What are some of them going to be?' he asked. He started to rake.",
+        "'April tenth is going to be Drop-the-Broom Day,' Lina said. 'No work on that date! Friday can be Fireworks Day. And every Monday is going to be Joke Day. We can tell jokes all day. There is not going to be any time for school on Mondays!'",
+        "'I like this!' Father said. 'October sixteenth can be Hug-a-Tree Day. And July thirtieth can be Be-Nice-to-Horses Day.'",
+        "Father stopped raking. 'What is the date today?' he asked.",
+        "'June twenty-first,' Lina said.",
+        "'The first day of summer,' Father said.",
+        "'Let's make it Chocolate Ice-Cream Day,' said Father.",
+        "'I like that idea!' said Lina. So they did."
+      ],
+      vocabulary: [
+        { word: "calendar", definition: "a chart showing days, weeks, and months of the year" },
+        { word: "celebrate", definition: "to do something special and enjoyable for an important event" },
+        { word: "holiday", definition: "a special day of celebration or rest" },
+        { word: "rake", definition: "a tool with long teeth for gathering leaves" }
+      ],
+      region: "Global",
+      moral: "Imagination and creativity can make everyday tasks more enjoyable when shared with others."
+    },
+    {
+      id: "who-took-my-baseball-cards",
+      title: "Who Took My Baseball Cards?",
+      origin: "Lower Intermediate",
+      author: "Reading Series",
+      content: [
+        "Hello! I'm Rick. I like to play soccer, and I like to play basketball. But my favorite sport is baseball. I love to play baseball! I'm the fastest runner on my team. Baseball is never boring to me. But it is really exciting when you win. Last year, my team won a trophy!",
+        "When I'm not playing baseball, I like to collect baseball cards. It's a fun and easy hobby. And it is interesting, too. Now I know everything about the players on all the different teams. I think I have the biggest collection in my town. That is because I spend all my money on baseball cards!",
+        "One day I was putting my newest baseball cards in my book. I saw that some of my old cards weren't there. How strange! What happened? I looked every day for my baseball cards, but I didn't find them. Was this some joke? I did not think it was funny. I felt awful.",
+        "Then, last night, I saw my dog Socks in the yard. I ran out to look. 'What's wrong, Socks?' I asked. Then I saw them. My baseball cards were behind the big rock! Socks took them! I was happy to see my wonderful cards, so I didn't get mad at Socks.",
+        "I think he likes collecting baseball cards, too!"
+      ],
+      vocabulary: [
+        { word: "hobby", definition: "an activity done regularly for enjoyment" },
+        { word: "collection", definition: "a group of similar things gathered together" },
+        { word: "trophy", definition: "a prize awarded for winning" },
+        { word: "strange", definition: "unusual or unexpected" }
+      ],
+      region: "Global",
+      moral: "Sometimes what we think is lost might just be misplaced, and forgiveness is better than anger."
+    },
+    {
+      id: "the-rabbit-and-the-turtle",
+      title: "The Rabbit and the Turtle",
+      origin: "Lower Intermediate",
+      author: "Reading Series",
+      content: [
+        "That rabbit! What a character! He was proud of his long ears. He was proud of his long feet. And he was very proud of how fast he ran.",
+        "'No one can catch me,' Rabbit said. 'I'm wonderful. Wonderful!'",
+        "'He is terrible,' said Mouse.",
+        "'Awful!' said Spider.",
+        "'I know what to do,' said Turtle.",
+        "'Would you like to have a race?' Turtle asked Rabbit. 'Let's race to Big Rock.'",
+        "'Do I want to race? With you?' Rabbit laughed. 'You are a dirty, dull turtle. A SLOW turtle.'",
+        "Turtle smiled. 'I can win,' he said.",
+        "Rabbit stopped laughing. 'Let's go!' he said.",
+        "They ran.",
+        "That rabbit was fast. He left Turtle behind in no time. Then he saw a restaurant. 'I'm hungry,' he thought. 'And that turtle is slow. I have time for dinner.'",
+        "Rabbit ate a delicious meal of fruit, cheese, and cake.",
+        "Turtle went past the restaurant. He didn't stop. But Rabbit caught up with him later and left him behind again.",
+        "Rabbit felt a little tired then. He found a log. He decided to crawl in. He slept.",
+        "Turtle did not stop. He went past the log. He was slow, but he ran and he ran.",
+        "Suddenly Rabbit opened his eyes. He jumped up. He ran faster than before. But he was too late.",
+        "That turtle was slow. But he did not stop, He did not give up. And he won!"
+      ],
+      vocabulary: [
+        { word: "character", definition: "a person or animal in a story" },
+        { word: "proud", definition: "feeling very pleased with oneself" },
+        { word: "delicious", definition: "very tasty and enjoyable" },
+        { word: "crawl", definition: "to move forward on hands and knees" }
+      ],
+      region: "Global",
+      moral: "Slow and steady progress wins over quick but careless actions. Never give up, even if you seem to be at a disadvantage."
+    },
+    {
+      id: "the-most-wonderful-present",
+      title: "The Most Wonderful Present",
+      origin: "Intermediate",
+      author: "Reading Series",
+      content: [
+        "Once upon a time, there lived a king who had a daughter. The king was a good father. His daughter wanted to get married, so he and his wife decided to help her look for a husband.",
+        "The king said, 'The one who brings us the most wonderful present can meet my daughter. If she falls in love with him, he can marry her.' People sent special presents to the castle. There were beautiful clay bowls, glasses, clocks, and coins. But not one of the presents was special enough.",
+        "In a small town lived three brothers. The three brothers decided to find presents for the princess. The oldest brother had black hair. He chose a special glass that let you see what was happening anywhere. The second brother was the shortest and had brown hair. He found a beautiful red rug. It let you fly anywhere.",
+        "The youngest brother had short blond hair. He didn't know what to choose. Then he heard a man say, 'Lemons! Lemons!' The man said that if anyone is sick, the lemon juice can make them well. The youngest brother picked one of the lemons.",
+        "The oldest brother looked in the glass. He saw the princess and she was sick! The second brother said, 'We must hurry up!' The brothers climbed onto the magic rug. Soon they were at the castle.",
+        "The youngest brother said, 'Take this lemon. The juice will make your daughter well.' The lemon worked! The princess was well! When the king found out why the brothers had come, he said, 'Thank you for the glass and the rug. But it was the lemon that made my daughter well. It was the most wonderful present.'",
+        "So she and the youngest brother got married. Cousins, aunts, uncles, and all the relatives came to celebrate. It was the most wonderful wedding anyone saw!"
+      ],
+      vocabulary: [
+        { word: "present", definition: "something given as a gift" },
+        { word: "princess", definition: "daughter of a king and queen" },
+        { word: "relatives", definition: "people who are part of the same family" },
+        { word: "wonderful", definition: "very good or amazing" }
+      ],
+      region: "Global",
+      moral: "The most valuable gifts are those that help others, not the most expensive or magical ones."
+    },
+    {
+      id: "a-day-at-the-mall",
+      title: "A Day at the Mall",
+      origin: "Intermediate",
+      author: "Reading Series",
+      content: [
+        "It was Saturday. Saturday was shopping day in my family. My mother saw an ad about a sale at the mall. The biggest department store was having an anniversary sale, and everything was half price. My mother decided I needed new clothes. I was in big trouble.",
+        "I liked my clothes. They fit me, and they looked great. But my mother loves shopping, and she loves sales. There was no stopping her. For a minute I thought I was lucky. Dad had the car. How could we get there? But Mom said, 'We can take the bus!'",
+        "The bus stopped at Sixth Avenue, just one block from the mall. At the mall, my mother asked for directions to the big department store. A man said the store was across from the pet store. We went past my favorite stores—Guitar World, Music Corner, and Sneaker Stop.",
+        "I wanted a new CD. But my mother said not to look in the window. We had to go straight to the department store. We had to turn right and go past the luggage store. It was next to the jewelry store. Mom moved so fast! She ran down the aisle and found the racks of clothes. She was excited.",
+        "Her fingers moved through shirt after shirt. 'Here!' she said. 'Try these on!' Everything Mom picked was awful. There were flowered shirts and checked shirts. There were pairs of plaid pants and pairs of striped pants. One shirt had sleeves that were too short. One pair of jeans had no pockets.",
+        "I wasn't surprised they were half price. Who would wear them? My mother was getting tired. 'These clothes look comfortable,' I said. 'And they're my size. I'll try them on.' I came out wearing my plain, solid-colored T-shirt and baggy pants.",
+        "'May I get them?' I asked. 'Yes. I like those clothes,' my mother said with a smile. 'How much do they cost?' 'Imagine that!' I said. 'My old clothes are free!' 'Wow! That's better than half price,' said Mom.",
+        "'Don't tell the salesperson,' I said to my mother. 'But my old clothes are better than any of the new clothes here!' 'You're right,' Mom said as we walked out the door. 'Sometimes something old can be better than something new.'"
+      ],
+      vocabulary: [
+        { word: "sale", definition: "selling things at lower prices than usual" },
+        { word: "aisle", definition: "a passage between rows of shelves or seats" },
+        { word: "plaid", definition: "a pattern of crossed lines forming squares" },
+        { word: "baggy", definition: "loose-fitting and hanging in folds" }
+      ],
+      region: "Global",
+      moral: "New isn't always better, and what we already have might be just what we need."
+    },
+    {
+      id: "do-your-homework",
+      title: "Do Your Homework",
+      origin: "Intermediate",
+      author: "Reading Series",
+      content: [
+        "Maria Flores has one brother and one sister. After school they share the chores. One day they see this note on the table: 'Maria, please sweep the floor and weed the garden. Matilde, please wash the dishes and feed the dog. Daniel, please mow the lawn and make your bed. All of you, DO YOUR HOMEWORK! We are at the grocery store. Mother and Father.'",
+        "Maria looks at Matilde. Matilde looks at Daniel. Daniel looks at his sisters. 'I want to play the piano!' Maria says. 'I want to play soccer!' Daniel says. 'Can you mow the lawn for me, Matilde?'",
+        "'Listen to you!' Matilde says. 'I want to read my riddle book. You spend all your free time playing video games. And I have all the hard chores.'",
+        "'I set the table and pick up the dirty dishes,' says Daniel. 'You always break a dish,' says Matilde. 'I help cook the supper.' 'And you always burn the soup!' says Maria.",
+        "'I take out the garbage,' says Daniel. 'I did that twice last week!' says Maria. They talk and talk and talk. No one does any chores.",
+        "'Here we are!' shouts Father. 'Did you finish your chores?' asks Mother. 'We are going to go to the beach when you do!'",
+        "Maria looks at Matilde. Matilde looks at Daniel. Daniel looks at his sisters. Then they all run to do their chores."
+      ],
+      vocabulary: [
+        { word: "chores", definition: "regular tasks or duties to be done" },
+        { word: "weed", definition: "to remove unwanted plants" },
+        { word: "mow", definition: "to cut grass with a machine" },
+        { word: "riddle", definition: "a puzzling question or problem" }
+      ],
+      region: "Global",
+      moral: "Responsibilities should be fulfilled before play, and working together makes tasks easier."
+    },
+    {
+      id: "headlines",
+      title: "Headlines",
+      origin: "Intermediate",
+      author: "Reading Series",
+      content: [
+        "My father works hard at his office. He is the head of a computer lab. He works all the time. And when he gets home after work, he disappears. Where? Behind his newspaper!",
+        "He reads every inch of that newspaper—current events, crime and sports, and weather. He even reads the movie reviews and the gossip column. Father enjoys that newspaper! But I don't like it. Why? Because he gets lost in it!",
+        "Once we were late for the school play because he did not stop reading. Once his beeper rang and rang. He didn't look up. Once I said, 'Father, the dog is flying,' just to see what he would do. 'Just a minute,' he said. 'I'm reading the book reviews.'",
+        "I can shout! I can cheer! When he reads the newspaper, he cannot hear me.",
+        "So today I played a little trick. I got some paper. I printed some headlines—different headlines. And I glued them to Father's newspaper.",
+        "What did he do? Father picked up the newspaper. He opened it. I waited. The newspaper began to shake. I heard a giggle. Then I heard a laugh. My trick was working!",
+        "'Very funny,' father said. 'Now I am hungry. Do you want to get some ice cream with me?'",
+        "'But you didn't read all of your newspaper, Father,' I said.",
+        "'I will do that later,' he said. 'Come on.' My father is wonderful!"
+      ],
+      vocabulary: [
+        { word: "headlines", definition: "titles of newspaper articles" },
+        { word: "current events", definition: "things happening in the present time" },
+        { word: "gossip", definition: "casual talk about other people" },
+        { word: "beeper", definition: "a device that makes a sound when receiving a message" }
+      ],
+      region: "Global",
+      moral: "Sometimes we need to be creative to get attention from those we love, and spending time together is more important than any distraction."
+    },
+    {
+      id: "i-love-new-york-city",
+      title: "I Love New York City",
+      origin: "Intermediate",
+      author: "Reading Series",
+      content: [
+        "I love New York City. I like the East. We always lived there. Then my father got a new job. It was in Arizona, where the Grand Canyon is. Out West!",
+        "Hollywood, in California, is all right. There are beautiful movie stars there. Washington, D.C. is all right. It is the capital of the United States. You can see famous buildings and the President there.",
+        "But what can you see in Arizona? Cows! Horses! I didn't want to move!",
+        "Do you know what I saw at the mall? A cow! But it wasn't real. It was in the window of the ice-cream store. We had one just like it in New York.",
+        "Do you know what? I think I'm going to like Arizona!"
+      ],
+      vocabulary: [
+        { word: "capital", definition: "the main city of a country or state" },
+        { word: "mall", definition: "a large building with many shops" },
+        { word: "Grand Canyon", definition: "a famous deep canyon in Arizona" },
+        { word: "move", definition: "to go to live in a different place" }
+      ],
+      region: "Global",
+      moral: "Being open to change can lead to unexpected happiness, and new places can become just as special as familiar ones."
+    },
+    {
+      id: "mouses-invention",
+      title: "Mouse's Invention",
+      origin: "Intermediate",
+      author: "Reading Series",
+      content: [
+        "Mouse got some wood and some cloth. Then he found some shiny paper clips, an old shoelace, a metal wheel, and a leather belt. 'You never know what you might use to make a mouse fly,' he said.",
+        "Just then, Bird flew by. 'I know,' said Mouse. 'I can make wings like Bird's.' So Mouse cut the cloth to make two wings. He glued them to pieces of wood to make wings. 'Now I have brand-new Mouse wings!' Mouse said.",
+        "He ran to show Rosa the wings. 'Look at my invention!' he said. Rosa looked at him. 'What an invention!' she said. 'Thank you,' Mouse said. 'Look! Now I'm going to test them.'",
+        "'Be careful!' said Rosa. Mouse ran to the end of the table. The wings went up and down. Mouse then jumped into the air. But he did not fly. Instead he went down, down, down... right into Rosa's hands!",
+        "'I caught you!' she said. She looked at Mouse. 'But why did you do that strange experiment anyway?'",
+        "'I wanted to invent a special flying machine so that I can go to Grandma's house,' Mouse said.",
+        "'Mouse,' Rosa said, 'I'm going to fly to Grandma's house, too.'",
+        "'In an airplane?' Then Mouse smiled. 'I think I can solve this,' he said. 'I can invent a flying machine for a mouse.'",
+        "Rosa pointed up to the sky. 'You don't need a special flying machine for a mouse! You can fly with me.' And that is what they did."
+      ],
+      vocabulary: [
+        { word: "invention", definition: "something new that someone has created" },
+        { word: "experiment", definition: "a test to try something new" },
+        { word: "glue", definition: "sticky substance used to join things together" },
+        { word: "solve", definition: "to find an answer to a problem" }
+      ],
+      region: "Global",
+      moral: "Sometimes the simplest solution is right in front of us, and working together is better than trying to solve problems alone."
+    }
   ]
 
   // Find the current story
@@ -523,22 +935,359 @@ export default function StoryPage({ params }: StoryPageProps) {
             </CardHeader>
             <CardContent>
               <ul className="space-y-3">
-                <li className="rounded-lg border p-3">
-                  <p className="text-sm text-slate-700">
-                    Why did the Emperor believe the swindlers' claims about the special cloth?
-                  </p>
-                </li>
-                <li className="rounded-lg border p-3">
-                  <p className="text-sm text-slate-700">
-                    Why did the officials pretend to see the clothes when there was nothing there?
-                  </p>
-                </li>
-                <li className="rounded-lg border p-3">
-                  <p className="text-sm text-slate-700">What does the child's honesty represent in the story?</p>
-                </li>
-                <li className="rounded-lg border p-3">
-                  <p className="text-sm text-slate-700">How does this story relate to situations in real life?</p>
-                </li>
+                {story.id === "the-firebird" && (
+                  <>
+                    <li className="rounded-lg border p-3">
+                      <p className="text-sm text-slate-700">
+                        Why were the golden apples so important to the Tsar?
+                      </p>
+                    </li>
+                    <li className="rounded-lg border p-3">
+                      <p className="text-sm text-slate-700">
+                        What did Ivan learn from disobeying the wolf's warnings?
+                      </p>
+                    </li>
+                    <li className="rounded-lg border p-3">
+                      <p className="text-sm text-slate-700">
+                        How did the gray wolf prove to be a true friend to Ivan?
+                      </p>
+                    </li>
+                    <li className="rounded-lg border p-3">
+                      <p className="text-sm text-slate-700">
+                        What were the most valuable treasures Ivan found on his journey?
+                      </p>
+                    </li>
+                  </>
+                )}
+
+                {story.id === "the-snow-queen" && (
+                  <>
+                    <li className="rounded-lg border p-3">
+                      <p className="text-sm text-slate-700">
+                        How did Kai change after the mirror shards entered his eye and heart?
+                      </p>
+                    </li>
+                    <li className="rounded-lg border p-3">
+                      <p className="text-sm text-slate-700">
+                        Why was Gerda able to resist the magic that tried to stop her?
+                      </p>
+                    </li>
+                    <li className="rounded-lg border p-3">
+                      <p className="text-sm text-slate-700">
+                        What helped Gerda finally free Kai from the Snow Queen's spell?
+                      </p>
+                    </li>
+                    <li className="rounded-lg border p-3">
+                      <p className="text-sm text-slate-700">
+                        How does the story show that love is stronger than magic?
+                      </p>
+                    </li>
+                  </>
+                )}
+
+                {story.id === "the-gift-of-the-magi" && (
+                  <>
+                    <li className="rounded-lg border p-3">
+                      <p className="text-sm text-slate-700">
+                        What sacrifices did Jim and Della make for each other, and why?
+                      </p>
+                    </li>
+                    <li className="rounded-lg border p-3">
+                      <p className="text-sm text-slate-700">
+                        How did their financial situation affect their gift-giving choices?
+                      </p>
+                    </li>
+                    <li className="rounded-lg border p-3">
+                      <p className="text-sm text-slate-700">
+                        Why are Jim and Della considered "wise" despite their "foolish" sacrifices?
+                      </p>
+                    </li>
+                    <li className="rounded-lg border p-3">
+                      <p className="text-sm text-slate-700">
+                        What does the story teach us about the true meaning of love and giving?
+                      </p>
+                    </li>
+                  </>
+                )}
+                {story.id === "why-the-sky-is-far-away" && (
+                <>
+                  <li className="rounded-lg border p-3">
+                    <p className="text-sm text-slate-700">
+                      How did people's behavior toward the sky's food change over time?
+                    </p>
+                  </li>
+                  <li className="rounded-lg border p-3">
+                    <p className="text-sm text-slate-700">
+                      What important lessons did the king try to teach his people?
+                    </p>
+                  </li>
+                  <li className="rounded-lg border p-3">
+                    <p className="text-sm text-slate-700">
+                      Why was working for food considered the sky's final gift?
+                    </p>
+                  </li>
+                  <li className="rounded-lg border p-3">
+                    <p className="text-sm text-slate-700">
+                      How did the people's understanding of food's value change after the sky moved away?
+                    </p>
+                  </li>
+                </>
+              )}
+
+                {story.id === "aladdins-lamp" && (
+                  <>
+                    <li className="rounded-lg border p-3">
+                      <p className="text-sm text-slate-700">
+                        How did Aladdin change after finding the magic lamp?
+                      </p>
+                    </li>
+                    <li className="rounded-lg border p-3">
+                      <p className="text-sm text-slate-700">
+                        Why did the sorcerer want the lamp so badly?
+                      </p>
+                    </li>
+                    <li className="rounded-lg border p-3">
+                      <p className="text-sm text-slate-700">
+                        How did Aladdin use both wisdom and magic to succeed?
+                      </p>
+                    </li>
+                    <li className="rounded-lg border p-3">
+                      <p className="text-sm text-slate-700">
+                        What made people love Aladdin as their ruler in the end?
+                      </p>
+                    </li>
+                  </>
+                )}
+
+                {story.id === "the-story-of-momotaro" && (
+                  <>
+                    <li className="rounded-lg border p-3">
+                      <p className="text-sm text-slate-700">
+                        How did Momotaro show kindness to each animal companion?
+                      </p>
+                    </li>
+                    <li className="rounded-lg border p-3">
+                      <p className="text-sm text-slate-700">
+                        What made each animal want to join Momotaro's quest?
+                      </p>
+                    </li>
+                    <li className="rounded-lg border p-3">
+                      <p className="text-sm text-slate-700">
+                        Why did Momotaro choose mercy over revenge with the demons?
+                      </p>
+                    </li>
+                    <li className="rounded-lg border p-3">
+                      <p className="text-sm text-slate-700">
+                        How did teamwork help them succeed in their mission?
+                      </p>
+                    </li>
+                  </>
+                )}
+
+                {story.id === "the-emperors-new-clothes" && (
+                  <>
+                    <li className="rounded-lg border p-3">
+                      <p className="text-sm text-slate-700">
+                        Why did the Emperor believe the swindlers' claims about the special cloth?
+                      </p>
+                    </li>
+                    <li className="rounded-lg border p-3">
+                      <p className="text-sm text-slate-700">
+                        How did pride prevent the ministers from telling the truth?
+                      </p>
+                    </li>
+                    <li className="rounded-lg border p-3">
+                      <p className="text-sm text-slate-700">
+                        Why was the child the only one who spoke the truth?
+                      </p>
+                    </li>
+                    <li className="rounded-lg border p-3">
+                      <p className="text-sm text-slate-700">
+                        What lesson did the Emperor learn about honesty and pride?
+                      </p>
+                    </li>
+                  </>
+                )}
+
+                {story.id === "the-nightingale" && (
+                  <>
+                    <li className="rounded-lg border p-3">
+                      <p className="text-sm text-slate-700">
+                        Why did the kitchen maid know about the nightingale when the court officials didn't?
+                      </p>
+                    </li>
+                    <li className="rounded-lg border p-3">
+                      <p className="text-sm text-slate-700">
+                        How was the real nightingale different from the mechanical bird?
+                      </p>
+                    </li>
+                    <li className="rounded-lg border p-3">
+                      <p className="text-sm text-slate-700">
+                        Why did the nightingale return to help the sick Emperor?
+                      </p>
+                    </li>
+                    <li className="rounded-lg border p-3">
+                      <p className="text-sm text-slate-700">
+                        What did the Emperor learn about true beauty and friendship?
+                      </p>
+                    </li>
+                  </>
+                )}
+
+                {story.id === "the-sinbad" && (
+                  <>
+                    <li className="rounded-lg border p-3">
+                      <p className="text-sm text-slate-700">
+                        What important lesson did Sinbad want to teach Hindbad?
+                      </p>
+                    </li>
+                    <li className="rounded-lg border p-3">
+                      <p className="text-sm text-slate-700">
+                        What challenges did Sinbad face during his seven voyages?
+                      </p>
+                    </li>
+                    <li className="rounded-lg border p-3">
+                      <p className="text-sm text-slate-700">
+                        How did Sinbad's cleverness help him survive?
+                      </p>
+                    </li>
+                    <li className="rounded-lg border p-3">
+                      <p className="text-sm text-slate-700">
+                        What was the most valuable treasure Sinbad gained from his adventures?
+                      </p>
+                    </li>
+                  </>
+                )}
+
+                {story.id === "the-happy-prince" && (
+                  <>
+                    <li className="rounded-lg border p-3">
+                      <p className="text-sm text-slate-700">
+                        How did the Prince's understanding of happiness change after his death?
+                      </p>
+                    </li>
+                    <li className="rounded-lg border p-3">
+                      <p className="text-sm text-slate-700">
+                        Why did the Swallow decide to stay with the Prince instead of flying to Egypt?
+                      </p>
+                    </li>
+                    <li className="rounded-lg border p-3">
+                      <p className="text-sm text-slate-700">
+                        What made the broken lead heart and dead Swallow the most precious things in the city?
+                      </p>
+                    </li>
+                    <li className="rounded-lg border p-3">
+                      <p className="text-sm text-slate-700">
+                        How did the Prince and the Swallow help the poor people of the city?
+                      </p>
+                    </li>
+                  </>
+                )}
+
+                {story.id === "the-selfish-giant" && (
+                  <>
+                    <li className="rounded-lg border p-3">
+                      <p className="text-sm text-slate-700">
+                        What happened to the garden after the Giant built the wall?
+                      </p>
+                    </li>
+                    <li className="rounded-lg border p-3">
+                      <p className="text-sm text-slate-700">
+                        How did the presence of children affect the Giant's garden?
+                      </p>
+                    </li>
+                    <li className="rounded-lg border p-3">
+                      <p className="text-sm text-slate-700">
+                        Why did Spring return to the garden when the Giant changed?
+                      </p>
+                    </li>
+                    <li className="rounded-lg border p-3">
+                      <p className="text-sm text-slate-700">
+                        What did the Giant learn about sharing and happiness?
+                      </p>
+                    </li>
+                  </>
+                )}
+
+                {story.id === "the-adventures-of-sinbad" && (
+                  <>
+                    <li className="rounded-lg border p-3">
+                      <p className="text-sm text-slate-700">
+                        Why did Sinbad share his story with Hindbad?
+                      </p>
+                    </li>
+                    <li className="rounded-lg border p-3">
+                      <p className="text-sm text-slate-700">
+                        What challenges did Sinbad face during his seven voyages?
+                      </p>
+                    </li>
+                    <li className="rounded-lg border p-3">
+                      <p className="text-sm text-slate-700">
+                        How did Sinbad's cleverness help him survive?
+                      </p>
+                    </li>
+                    <li className="rounded-lg border p-3">
+                      <p className="text-sm text-slate-700">
+                        What was the most valuable treasure Sinbad gained from his adventures?
+                      </p>
+                    </li>
+                  </>
+                )}
+
+                {story.id === "the-stone-soup" && (
+                  <>
+                    <li className="rounded-lg border p-3">
+                      <p className="text-sm text-slate-700">
+                        How did the traveler's clever plan help bring the village together?
+                      </p>
+                    </li>
+                    <li className="rounded-lg border p-3">
+                      <p className="text-sm text-slate-700">
+                        What made each villager want to contribute to the soup?
+                      </p>
+                    </li>
+                    <li className="rounded-lg border p-3">
+                      <p className="text-sm text-slate-700">
+                        Why was the soup so delicious even though it was made with just a stone?
+                      </p>
+                    </li>
+                    <li className="rounded-lg border p-3">
+                      <p className="text-sm text-slate-700">
+                        What was the real magic in the stone soup story?
+                      </p>
+                    </li>
+                  </>
+                )}
+
+                {!story.id.includes("the-firebird") && 
+                 !story.id.includes("the-snow-queen") && 
+                 !story.id.includes("the-gift-of-the-magi") &&
+                 !story.id.includes("why-the-sky-is-far-away") &&
+                 !story.id.includes("aladdins-lamp") &&
+                 !story.id.includes("the-story-of-momotaro") &&
+                 !story.id.includes("the-emperors-new-clothes") &&
+                 !story.id.includes("the-nightingale") &&
+                 !story.id.includes("the-sinbad") &&
+                 !story.id.includes("the-happy-prince") &&
+                 !story.id.includes("the-selfish-giant") &&
+                 !story.id.includes("the-adventures-of-sinbad") &&
+                 !story.id.includes("the-stone-soup") && (
+                  <>
+                    <li className="rounded-lg border p-3">
+                      <p className="text-sm text-slate-700">
+                        Can you formulate your own questions about this story using the 5 W's and 1 H?
+                      </p>
+                      <ul className="mt-2 ml-4 list-disc text-sm text-slate-600">
+                        <li>Who are the main characters?</li>
+                        <li>What happens in the story?</li>
+                        <li>Where does the story take place?</li>
+                        <li>When does the story occur?</li>
+                        <li>Why do the characters make their choices?</li>
+                        <li>How do events unfold and lead to the conclusion?</li>
+                      </ul>
+                    </li>
+                  </>
+                )}
               </ul>
             </CardContent>
           </Card>

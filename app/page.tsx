@@ -99,7 +99,7 @@ const LEARNING_LEVELS = [
     description: "Master English sounds and pronunciation",
     icon: <BookMarked className="h-10 w-10 text-primary" />,
     features: ["Letter sounds", "Blending", "Sight words", "Pronunciation"],
-    timeframe: "3-6 months",
+    timeframe: "6 weeks",
     link: "/#phonics",
     grade: "All Levels",
   },
@@ -108,7 +108,7 @@ const LEARNING_LEVELS = [
     description: "Build vocabulary through engaging stories",
     icon: <BookOpen className="h-10 w-10 text-primary" />,
     features: ["Basic vocabulary", "Simple grammar", "Reading comprehension", "Cultural lessons"],
-    timeframe: "6 months",
+    timeframe: "1 month",
     link: "/level-1",
     grade: "Grades 1-3",
   },
@@ -117,7 +117,7 @@ const LEARNING_LEVELS = [
     description: "Enhance your English communication",
     icon: <BookText className="h-10 w-10 text-primary" />,
     features: ["Complex grammar", "Writing skills", "Speaking practice", "Listening exercises"],
-    timeframe: "6 months",
+    timeframe: "1 month",
     link: "/level-2",
     grade: "Grades 4-6",
   },
@@ -126,7 +126,7 @@ const LEARNING_LEVELS = [
     description: "Perfect your English proficiency",
     icon: <Star className="h-10 w-10 text-primary" />,
     features: ["Advanced grammar", "Essay writing", "Public speaking", "Business English"],
-    timeframe: "6 months",
+    timeframe: "1 month",
     link: "/level-3",
     grade: "Grades 7-8",
   },
@@ -203,7 +203,7 @@ export default function Home() {
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Level 0: Phonics</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">START HERE Level 0: Phonics</h2>
               <p className="mx-auto max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Master the building blocks of English pronunciation and reading.
               </p>

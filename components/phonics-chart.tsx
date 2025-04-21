@@ -48,7 +48,7 @@ const phonicsData = {
 // Update the description first
 const syllableDescription = {
   title: "Syllable Management",
-  subtitle: "Master English pronunciation with Wayne's syllable system",
+  subtitle: "Break words into their syllables",
   description: "Breaking words into syllables is crucial for ESL learners. It helps with pronunciation, spelling, and vocabulary retention. Write each word in both English and your native language to reinforce learning.",
   instructions: "1. Read each word carefully\n2. Practice the syllable breaks\n3. Write the word in English\n4. Write the translation in your language\n5. Review and repeat daily"
 }
@@ -252,7 +252,7 @@ export default function PhonicsChart() {
         <Badge variant="secondary">Level 0</Badge>
         <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Phonics Chart</h2>
         <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-          Master English pronunciation with Wayne&apos;s phonics system. Speed and syllable management are key to
+          Speed and syllable management are key to
           fluency.
         </p>
       </div>
